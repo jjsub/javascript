@@ -10,4 +10,12 @@ function execute(someFun, value){
   someFun(value);
 }
 
-execute(say,'Hola happy amigo')
+execute(say,'Hola happy amigo');
+
+
+// We can define and pass a function as a parameter to another function in-place:
+
+
+execute(function(word){
+  console.info('anonymous function ',word);
+}, 'Hello');
