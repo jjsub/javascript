@@ -8,9 +8,13 @@ var output = fs.readFileSync('theData.txt', 'utf-8')
   .split('\n')
   // each line is split into a array by taps caracter '\t'
   .map(line => line.split('\t'))
-  .reduce((customers, line) => {
-    console.log(line);
+  .reduce((customers, line, i) => {
+    console.log(line[0], i);
     customers[line[0]] = customers[line[0]] || []
+
+    console.log(customers);
+    console.log(`****__zNUMERO DE i => ${i}____****`);
+
     customers[line[0]].push({
       productName: line[1],
       price: line[2],
