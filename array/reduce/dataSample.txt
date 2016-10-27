@@ -1,0 +1,9 @@
+mark johonsson  waffle iron 80 2
+mark johonsson  blender 200 1
+mark johonsson  knife 10 4
+fernando munoz  waffle iron 80 1
+fernando munoz  knife 10 2
+fernanod munoz  pot 20 3
+juan rodriguez  waffle iron 12 8
+juan rodriguez  knife 21 2
+juan rodriguez  spoon 12 5
